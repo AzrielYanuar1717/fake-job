@@ -3,9 +3,9 @@ import joblib
 import numpy as np
 
 # Load model & encoder
-tfidf = joblib.load('tfidf.pkl')
-ohe = joblib.load('ohe.pkl')
-rf = joblib.load('rf.pkl')
+tfidf = joblib.load('models/tfidf.pkl')
+ohe = joblib.load('models/ohe.pkl')
+rf = joblib.load('models/rf.pkl')
 
 st.title("Prediksi Lowongan Kerja Palsu/Asli")
 
